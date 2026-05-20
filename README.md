@@ -8,6 +8,12 @@
 
 ## Profile Card App
 
+## 📸 Day 1 Output
+
+<p align="center">
+  <img src="./screenshots/day1.jpeg" width="250"/>
+</p>
+
 ### Features
 - Gradient Background
 - Card UI
