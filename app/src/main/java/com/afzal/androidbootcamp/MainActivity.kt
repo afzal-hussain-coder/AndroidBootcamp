@@ -13,6 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.afzal.androidbootcamp.day1.ui.ProfileCardScreen
+import com.afzal.androidbootcamp.day2.ui.CounterScreen
+import com.afzal.androidbootcamp.day2.viewmodel.CounterViewModel
 import com.afzal.androidbootcamp.ui.theme.AndroidBootcampTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +25,7 @@ class MainActivity : ComponentActivity() {
             AndroidBootcampTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        ProfileCardScreen()
+                        CounterScreen()
                     }
 
                 }
@@ -32,18 +34,4 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    AndroidBootcampTheme {
-        Greeting("Android")
-    }
-}
