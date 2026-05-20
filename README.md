@@ -227,10 +227,25 @@ After Day 1:
 
 ---
 
-# 🚀 Tomorrow Learning (Day 2)
+# 🚀 Day2 MVVM Counter App
 
-- MVVM
-- ViewModel
-- StateFlow
-- UI State
-- Architecture Basics
+A simple Counter App built using Jetpack Compose and MVVM Architecture.
+
+# 🚀 Features
+
+- Increment Counter
+- Decrement Counter
+- Reactive UI Updates
+- MVVM Architecture
+- StateFlow State Management
+- Modern Jetpack Compose UI
+
+---
+
+# 📸 App Screenshot
+
+<p align="center">
+  <img src="./screenshots/day2.jpeg" width="250"/>
+</p>
+
+
