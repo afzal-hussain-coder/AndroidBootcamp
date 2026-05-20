@@ -11,7 +11,7 @@
 ## 📸 Day 1 Output
 
 <p align="center">
-  <img src="./screenshots/day1_ui.jpeg" width="250"/>
+  <img src="./screenshots/day1_ui.jpeg" width="200" height ="300"/>
 </p>
 
 ### Features
